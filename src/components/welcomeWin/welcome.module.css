@@ -1,0 +1,12 @@
+.win{
+    height: 700px;
+    background-color: grey;
+    position: relative;
+}
+.win h1{
+    position: absolute;
+    bottom: 20px;
+    font-size: 70px;
+    color: white;
+    left: 20px;
+}
