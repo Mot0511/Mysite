@@ -1,6 +1,7 @@
 .win{
     height: 700px;
-    background-color: grey;
+    background-image: url('welcomewin.jpg');
+    background-position: center;
     position: relative;
 }
 .win h1{
