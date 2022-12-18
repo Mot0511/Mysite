@@ -1,4 +1,35 @@
 .heading{
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sites{
+    width: 80%;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    overflow: hidden;
+    padding-top: 13px;
+    transition: overflow 0.3s;
+}
+.sitesDeploy{
+    overflow: visible;
+}
+.deployBt{
+    width: 200px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 50%;
+    transform: translateX(-100px);
+    transition: all 0.3s;
+}
+.deployBt:hover{
+    color: grey;
+}
+.hideDeployBt{
+    display: none;
 }
