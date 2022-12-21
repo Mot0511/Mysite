@@ -1,14 +1,16 @@
 import cl from './style.module.css'
 import Header from'./components/header/header'
 import WelcomeWin from "./components/welcomeWin/welcomeWin";
-import Sites from "./components/sites/sites";
+import Projects from "./components/projects/projects";
+import Aboutme from "./components/aboutme/aboutme";
 
 function App() {
   return (
     <div className="App">
       <Header />
       <WelcomeWin />
-        <Sites />
+        <Projects />
+        <Aboutme />
     </div>
   );
 }

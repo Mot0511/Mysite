@@ -12,7 +12,7 @@ const Header = () => {
                     <div className={'col-lg-4'}>
                         <div className={cl.menu}>
                             <a href={'/'}>Главная</a>
-                            <a href={'/#sites'}>Мои сайты</a>
+                            <a href={'/#projects'}>Мои сайты</a>
                             <a href={'/#aboutme'}>Обо мне</a>
                         </div>
                     </div>

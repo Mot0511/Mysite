@@ -3,9 +3,8 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.sites{
+.projects{
     width: 80%;
-    height: 470px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -14,7 +13,7 @@
     padding-top: 13px;
     transition: overflow 0.3s;
 }
-.sitesDeploy{
+.Deploy{
     overflow: visible;
 }
 .deployBt{

@@ -7,7 +7,7 @@ const Item = ({img, title, href}) => {
             <center>
                 <img src={img} />
                 <h3>{title}</h3>
-                <a href={href} target={'_blank'}><button className={cl.viewSite}>Посмотреть сайт</button></a>
+                <a href={href} target={'_blank'}><button className={cl.viewSite}>Посмотреть проект</button></a>
             </center>
         </div>
     );
