@@ -8,6 +8,7 @@ import s2 from '../../img/2.png'
 import s3 from '../../img/3.png'
 import s4 from '../../img/4.png'
 import s5 from '../../img/5.png'
+import s6 from '../../img/6.png'
 import cather from '../../img/cather.png'
 import clickmoney from '../../img/clickmoney.png'
 
@@ -29,6 +30,7 @@ const Projects = () => {
                     <Item img={s3} title={'Cайт для электромонтажной компании'} href={'http://a0755720.xsph.ru/Elkris/'}/>
                     <Item img={s4} title={'Небольшой шаблон для сайта по курсам английского языка'} href={'https://mot0511.github.io/LearnEng/'}/>
                     <Item img={s5} title={'Верстка некого красивого шаблона'} href={'https://mot0511.github.io/Waxom/'}/>
+                    <Item img={s6} title={'Онлайн калькулятор'} href={'https://calc-drab-gamma.vercel.app/'}/>
             </div>
             {/*<button onClick={deployListSites} className={hideDeployBtSites.join(' ')}>Показать все сайты</button>*/}
             {/*<h2 className={cl.heading} id={"projects"}>Мои игры</h2>*/}
