@@ -32,7 +32,7 @@ const Projects = () => {
                     <Item img={s4} title={'Небольшой шаблон для сайта по курсам английского языка'} href={'https://mot0511.github.io/LearnEng/'}/>
                     <Item img={s5} title={'Верстка некого красивого шаблона'} href={'https://mot0511.github.io/Waxom/'}/>
                     <Item img={s6} title={'Онлайн калькулятор'} href={'https://calc-drab-gamma.vercel.app/'}/>
-                    <Item img={s7} title={'Погода'} href={'https://theweather-auwwp20e3-mot0511.vercel.app/'}/>
+                    <Item img={s7} title={'Погода'} href={'https://theweather-git-master-mot0511.vercel.app/'}/>
             </div>
             {/*<button onClick={deployListSites} className={hideDeployBtSites.join(' ')}>Показать все сайты</button>*/}
             {/*<h2 className={cl.heading} id={"projects"}>Мои игры</h2>*/}
