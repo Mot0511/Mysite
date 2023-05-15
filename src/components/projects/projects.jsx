@@ -10,6 +10,7 @@ import s4 from '../../img/4.png'
 import s5 from '../../img/5.png'
 import s6 from '../../img/6.png'
 import s7 from '../../img/7.png'
+import s8 from '../../img/8.png'
 import cather from '../../img/cather.png'
 import clickmoney from '../../img/clickmoney.png'
 
@@ -28,11 +29,10 @@ const Projects = () => {
             <div className={listClassesSites.join(' ')}>
                     <Item img={s1} title={'Небольшой шаблон для сайта частой школы'} href={'https://mot0511.github.io/OnlineSchoolT/'}/>
                     <Item img={s2} title={'Шаблон для сайта портфолио'} href={'https://mot0511.github.io/PortfolioSite/'}/>
-                    <Item img={s3} title={'Cайт для электромонтажной компании'} href={'http://a0755720.xsph.ru/Elkris/'}/>
                     <Item img={s4} title={'Небольшой шаблон для сайта по курсам английского языка'} href={'https://mot0511.github.io/LearnEng/'}/>
                     <Item img={s5} title={'Верстка некого красивого шаблона'} href={'https://mot0511.github.io/Waxom/'}/>
-                    <Item img={s6} title={'Онлайн калькулятор'} href={'https://calc-drab-gamma.vercel.app/'}/>
-                    <Item img={s7} title={'Погода'} href={'https://theweather-git-master-mot0511.vercel.app/'}/>
+                    <Item img={s7} title={'Веб-приложение погоды'} href={'https://theweather-git-master-mot0511.vercel.app/'}/>
+                    <Item img={s8} title={'Социальная сеть'} href={'https://leter.vercel.app/'}/>
             </div>
             {/*<button onClick={deployListSites} className={hideDeployBtSites.join(' ')}>Показать все сайты</button>*/}
             {/*<h2 className={cl.heading} id={"projects"}>Мои игры</h2>*/}

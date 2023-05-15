@@ -8,7 +8,7 @@
     position: relative;
 }
 .site:hover{
-    box-shadow: 0px 0px 30px 5px black;
+    box-shadow: 0 0 30px 5px black;
 }
 img{
     width: 100%;
@@ -36,4 +36,16 @@ h3{
 }
 .viewSite:active{
     border: 3px solid #4D7FFF;
+}
+@media (max-width: 1200px){
+    .viewSite{
+        left: 0;
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 98%;
+    }
+    .site{
+        width: 100%;
+        margin-left: 20px;
+    }
 }

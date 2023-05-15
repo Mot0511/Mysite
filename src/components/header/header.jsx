@@ -7,7 +7,7 @@ const Header = () => {
             <div className={'container'}>
                 <div className={'row'}>
                     <div className={'col-lg-4'}>
-                        <h3>MatveySuvorov</h3>
+                        <h3 className={cl.heading}>MatveySuvorov</h3>
                     </div>
                     <div className={'col-lg-4'}>
                         <div className={cl.menu}>
@@ -17,7 +17,7 @@ const Header = () => {
                         </div>
                     </div>
                     <div className={'col-lg-4'}>
-                        <h3>suvorov.matvej9@gmail.com</h3>
+                        <h3 className={cl.email}>suvorov.matvej9@gmail.com</h3>
                     </div>
                 </div>
             </div>
