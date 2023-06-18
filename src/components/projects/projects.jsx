@@ -16,6 +16,7 @@ const Projects = () => {
         <div>
             <h2 className={cl.heading} id={"projects"}>Мои сайты</h2>
             <div className={listClassesSites.join(' ')}>
+                    <Item img={require('../../img/10.png')} title={'Верстка макета Cammusc'} href={'https://carmusc.vercel.app/y'}/>
                     <Item img={require('../../img/1.png')} title={'Небольшой шаблон для сайта частой школы'} href={'https://mot0511.github.io/OnlineSchoolT/'}/>
                     <Item img={require('../../img/9.png')} title={'Верстка макета Boldo'} href={'https://boldo-psi.vercel.app/'}/>
                     <Item img={require('../../img/2.png')} title={'Шаблон для сайта портфолио'} href={'https://mot0511.github.io/PortfolioSite/'}/>
