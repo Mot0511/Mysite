@@ -1,13 +1,19 @@
 import React from 'react';
 import cl from './item.module.css'
+import Mybutton from "../mybutton/mybutton";
+import {Link} from "react-router-dom";
 
-const Item = ({img, title, href}) => {
+const Item = ({id, img, title, href}) => {
     return (
         <div className={cl.site}>
             <center>
                 <img src={img} />
                 <h3>{title}</h3>
-                <a href={href} target={'_blank'}><button className={cl.viewSite}>Посмотреть проект</button></a>
+                <div className={cl.btns}>
+                    <Mybutton href={href}>Посмотреть проект</Mybutton>
+                    <Link to={`/${id}`}>Подробнее</Link>
+                </div>
+
             </center>
         </div>
     );

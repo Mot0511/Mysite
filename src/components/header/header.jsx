@@ -1,5 +1,6 @@
 import React from 'react';
 import cl from './header.module.css'
+import {Link} from "react-router-dom";
 
 const Header = () => {
     return (
@@ -11,9 +12,9 @@ const Header = () => {
                     </div>
                     <div className={'col-lg-4'}>
                         <div className={cl.menu}>
-                            <a href={'/'}>Главная</a>
-                            <a href={'/#projects'}>Мои сайты</a>
-                            <a href={'/#aboutme'}>Обо мне</a>
+                            <Link to={'/'}>Главная</Link>
+                            <Link to={'/#projects'}>Мои сайты</Link>
+                            <Link to={'/#aboutme'}>Обо мне</Link>
                         </div>
                     </div>
                     <div className={'col-lg-4'}>

@@ -13,22 +13,3 @@
     padding-top: 13px;
     transition: overflow 0.3s;
 }
-.Deploy{
-    overflow: visible;
-}
-.deployBt{
-    width: 200px;
-    background: none;
-    border: none;
-    font-size: 20px;
-    margin-top: 10px;
-    margin-left: 50%;
-    transform: translateX(-100px);
-    transition: all 0.3s;
-}
-.deployBt:hover{
-    color: grey;
-}
-.hideDeployBt{
-    display: none;
-}

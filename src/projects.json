@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "title": "Верстка макета Cammusc",
+    "link": "https://carmusc.vercel.app/",
+    "github": "https://github.com/Mot0511/carmusc",
+    "technologies": ["HTML/CSS/JS", "ReactJS"],
+    "description": ""
+  },
+  {
+    "id": "0",
+    "title": "Верстка макета Boldo",
+    "link": "https://boldo-psi.vercel.app/",
+    "github": "https://github.com/Mot0511/Boldo",
+    "technologies": ["HTML/CSS/JS", "ReactJS"],
+    "description": ""
+  },
+  {
+    "id": "2",
+    "title": "Интернет-магазин",
+    "link": "https://techstore-zeta.vercel.app/",
+    "github": "https://github.com/Mot0511/Techstore",
+    "technologies": ["HTML/CSS/JS", "ReactJS", "NextJS", "Bootstrap", "Redux", "Typescript", "Firebase"],
+    "description": "Это интернет-магазин несуществующего магазина Techstore. Я его написал для того, чтобы на напрактиковать такие технологии как Redux, Typescript ну и конечно же React. В верстке я старался активно использовать Bootstrap, в прокте использована сеточная структура Bootstrap, я использовал в проекте некоторые кнопки Bootstrap, его поля ввода и всплывающее окно. В качестве базы данных в проекте используется сервис Firebase. На сайте присутствует возможность входа через Google аккаунт.\nВ самом низу сайта есть кнопка 'Вход для сотрудников'. После нажатия на нее надо ввести код сотрудника:\nАдминистратор - 1,\nОбычный сотрудник - 2"
+  }
+]
